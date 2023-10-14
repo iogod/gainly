@@ -2,8 +2,8 @@
   "version": "1",
   "cognitoConfig": {
     "identityPoolName": "testAuthIdentityPool",
-    "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "gainly8d2e1737",
+    "allowUnauthenticatedIdentities": true,
+    "resourceNameTruncated": "gainlyfa37cd9f",
     "userPoolName": "gainly",
     "autoVerifiedAttributes": [
       "email"
@@ -30,15 +30,12 @@
     "userpoolClientRefreshTokenValidity": 30,
     "userpoolClientWriteAttributes": [],
     "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "gainly8d2e1737_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "gainlyfa37cd9f_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "8d2e1737",
+    "sharedId": "fa37cd9f",
     "resourceName": "gainly",
     "authSelections": "identityPoolAndUserPool",
     "serviceName": "Cognito",
-    "usernameAttributes": [
-      "email"
-    ],
     "useDefault": "manual",
     "userPoolGroups": false,
     "userPoolGroupList": [],
@@ -60,7 +57,6 @@
       ]
     },
     "breakCircularDependency": true,
-    "dependsOn": [],
-    "hostedUI": false
+    "dependsOn": []
   }
 }

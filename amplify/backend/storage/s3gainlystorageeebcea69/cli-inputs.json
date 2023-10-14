@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3gainlystorageeebcea69",
+  "bucketName": "gainly-storage-eebcea69",
+  "policyUUID": "cf6bff2b",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
