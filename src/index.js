@@ -9,7 +9,8 @@ import SignInPage from "./SignIn/SignInPage";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SignInPage />
+    {/* <SignInPage /> */}
+    <App />
   </React.StrictMode>
 );
 
